@@ -54,7 +54,7 @@ std::cout << "'cube' - draws a cube based on the entered data.\n";
 std::cout << "'numb' - guess the number game.\n";
 std::cout << "'hot' - heads or tails.\n";
 std::cout << "'99' - lyrics of the song ''99 Bottles of Beer''.\n";
-std::cout << "'whoami' - print user name.\n";
+std::cout << "'whoami' - print username.\n";
 std::cout << "'h' - hello world.\n";
 std::cout << "'exit' - logout.\n";
 std::cout << std::endl;
