@@ -250,9 +250,9 @@ std::cout << "===============================\n";
 login:
 std::cout << "Username: ";
 std::cin >> name;
-if (name == "exit")
+if (name == "exit") {
 exit(0);
-else
+}
 std::cout << "Password: ";
 std::cin >> passwdcin;
 if (name == username && passwd == passwdcin)
