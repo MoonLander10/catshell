@@ -357,7 +357,7 @@ login:
 std::cout << "Username: ";
 std::cin >> name;
 if (name == "exit") {
-exit(0);
+goto exit;
 }
 std::cout << "Password: ";
 std::cin >> passwdcin;
@@ -562,7 +562,7 @@ if (mode == false) {
 std::cout << std::endl;
 std::cout << "Goodbye!!\n";
 std::cout << std::endl;
-exit(0);
+goto exit;
 }
 if (mode == true) {
 std::cout << "Password: ";
@@ -571,7 +571,7 @@ if (passwdcin == passwd) {
 std::cout << std::endl;
 std::cout << "Goodbye!!\n";
 std::cout << std::endl;
-exit(0);
+goto exit;
 }
 else {
 std::cout << "incorrect password.\n";
@@ -584,5 +584,6 @@ std::cout << command;
 std::cout << ": command not found.\n";
 }
 goto system;
+exit:
 return 0;
 } //8 Фев 2025 года в 01:26 я закончил писать эту шнягу, хотя и эти все дни в основном просто пинал хуи и ничего не делал, писец спать хочу.
